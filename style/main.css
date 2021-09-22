@@ -10,15 +10,15 @@
 
 #Main .btn-primary {
   color: white;
-  background-color: orange;
+  background-color: #5bc0be;
   border: none;
 }
 #Main .btn-primary:hover {
   color: white;
-  background-color: orangered;
+  background-color: #49a1a0;
 }
 #Main .section-title {
-  color: orangered;
+  color: black;
   font-weight: bold;
 }
 #Main .img-circle {
@@ -52,7 +52,7 @@
 }
 
 #MaterialSection {
-  background-color: orange;
+  background-color: #f5f8fc;
 }
 #MaterialSection .card {
   min-height: 10rem;
@@ -61,7 +61,7 @@
 }
 
 #CTASection {
-  background-color: orange;
+  background-color: #f5f8fc;
   padding-top: 50px;
   padding-bottom: 50px;
 }
@@ -73,10 +73,18 @@
 
 #FooterSection .link {
   text-decoration: none;
-  color: black;
+  color: gray;
+  font-size: 15px;
+  margin-bottom: 5px;
 }
 #FooterSection .link:hover {
-  color: orange;
+  color: black;
+}
+#FooterSection .footer-socmed-link {
+  text-decoration: none;
+  color: gray;
+  font-size: 1.5rem;
+  margin-bottom: 5px;
 }
 
 @media screen and (max-width: 700px) {

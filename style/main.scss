@@ -12,15 +12,15 @@
   // Global style
   .btn-primary {
     color: white;
-    background-color: orange;
+    background-color: #5bc0be;
     border: none;
   }
   .btn-primary:hover {
     color: white;
-    background-color: orangered;
+    background-color: #49a1a0;
   }
   .section-title {
-    color: orangered;
+    color: black;
     font-weight: bold;
   }
   .img-circle {
@@ -55,7 +55,7 @@
 }
 
 #MaterialSection {
-  background-color: orange;
+  background-color: rgb(245, 248, 252);
   .card {
     min-height: 10rem;
     border: none;
@@ -64,7 +64,7 @@
 }
 
 #CTASection {
-  background-color: orange;
+  background-color: rgb(245, 248, 252);
   padding-top: 50px;
   padding-bottom: 50px;
   .card {
@@ -77,10 +77,18 @@
 #FooterSection {
   .link {
     text-decoration: none;
-    color: black;
+    color: gray;
+    font-size: 15px;
+    margin-bottom: 5px;
   }
   .link:hover {
-    color: orange;
+    color: black;
+  }
+  .footer-socmed-link {
+    text-decoration: none;
+    color: gray;
+    font-size: 1.5rem;
+    margin-bottom: 5px;
   }
 }
 
