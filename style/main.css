@@ -8,16 +8,6 @@
   scroll-margin-top: 100px;
 }
 
-#Main .link {
-  text-decoration: none;
-  color: black;
-}
-
-#Main .link:hover {
-  text-decoration: none;
-  color: #49a1a0;
-}
-
 #Main .btn-primary {
   color: white;
   background-color: #5bc0be;
@@ -29,13 +19,12 @@
 }
 #Main .btn-orange {
   color: white;
-  background-color: rgb(255, 136, 0);
+  background-color: #ff8800;
   border: none;
 }
 #Main .btn-orange:hover {
   color: white;
-  background-color: rgb(211, 112, 0);
-  border: none;
+  background-color: #df7700;
 }
 #Main .section-title {
   color: black;
@@ -76,8 +65,63 @@
 }
 #MaterialSection .card {
   min-height: 10rem;
-  border: none;
+  border: 3px solid #5bc0be;
   border-radius: 25px;
+  transition: 0.5s;
+}
+#MaterialSection .card:hover {
+  border: 3px solid white;
+  background-color: #ff8800;
+  color: white;
+  transition: 0.5s;
+  transform: translate(0, -10px);
+}
+
+#TimelineSection .hori-timeline .events {
+  border-top: 3px solid #e9ecef;
+}
+#TimelineSection .hori-timeline .events .event-list {
+  display: block;
+  position: relative;
+  text-align: center;
+  padding-top: 70px;
+  margin-right: 0;
+}
+#TimelineSection .hori-timeline .events .event-list:before {
+  content: "";
+  position: absolute;
+  height: 36px;
+  border-right: 2px dashed #dee2e6;
+  top: 0;
+}
+#TimelineSection .hori-timeline .events .event-list .event-date {
+  position: absolute;
+  top: 38px;
+  left: 0;
+  right: 0;
+  width: 75px;
+  margin: 0 auto;
+  border-radius: 4px;
+  padding: 2px 4px;
+}
+@media (min-width: 1140px) {
+  #TimelineSection .hori-timeline .events .event-list {
+    display: inline-block;
+    width: 24%;
+    padding-top: 45px;
+  }
+  #TimelineSection .hori-timeline .events .event-list .event-date {
+    top: -12px;
+  }
+}
+#TimelineSection .bg-soft-primary {
+  background-color: #5bc0be !important;
+}
+#TimelineSection .card {
+  border: none;
+  margin-bottom: 24px;
+  -webkit-box-shadow: 0 0 13px 0 rgba(236, 236, 241, 0.44);
+  box-shadow: 0 0 13px 0 rgba(236, 236, 241, 0.44);
 }
 
 #CTASection {
