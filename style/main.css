@@ -54,6 +54,7 @@ body {
 }
 
 #Hero {
+  min-height: 650px;
   padding-top: 100px;
   background-image: url("../assets/img/hero-bg.jpg");
   background-position: center;
@@ -62,7 +63,7 @@ body {
 }
 #Hero .hero-title {
   color: black;
-  font-size: 2rem;
+  font-size: 2.2rem;
 }
 
 #About {
@@ -86,8 +87,8 @@ body {
 
 #TimelineSection {
   background-color: #f5f8fc;
-  padding-top: 50px;
-  padding-bottom: 50px;
+  padding-top: 20px;
+  padding-bottom: 20px;
   margin-bottom: 50px;
 }
 #TimelineSection .hori-timeline .events {
