@@ -8,6 +8,16 @@
   scroll-margin-top: 100px;
 }
 
+#Main .link {
+  text-decoration: none;
+  color: black;
+}
+
+#Main .link:hover {
+  text-decoration: none;
+  color: #49a1a0;
+}
+
 #Main .btn-primary {
   color: white;
   background-color: #5bc0be;
@@ -16,6 +26,16 @@
 #Main .btn-primary:hover {
   color: white;
   background-color: #49a1a0;
+}
+#Main .btn-orange {
+  color: white;
+  background-color: rgb(255, 136, 0);
+  border: none;
+}
+#Main .btn-orange:hover {
+  color: white;
+  background-color: rgb(211, 112, 0);
+  border: none;
 }
 #Main .section-title {
   color: black;
